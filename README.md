@@ -24,3 +24,7 @@ the contents of your snippet
 Example:  
   
 `php export.php /tmp/gistbox_snippets.json /tmp/`
+  
+**Where do i get the json export of my gistbox gists?**  
+While doing the migration from gistbox to cacher, you will be asked to save your gists  
+and download everything as a json file.
