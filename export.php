@@ -39,7 +39,9 @@ function exportGist(array $gist, $export_path, $groupname, array $gistlabels) {
 				$ext = $path_parts['extension'];
 			}
 			$descr  = '# '.$filedata['filename'] . '  '."\n";
-			$descr .= "\n\n";
+			$descr .= '```'."\n";
+			$descr .= $gist['description']."\n";
+			$descr .= '```'."\n\n\n";
 			$descr .= 'id: `'.$gist['id'] . '`  '."\n";
 			if (array_key_exists($gist['id'],$gistlabels)) {
 				/** @noinspection PhpIllegalArrayKeyTypeInspection */
