@@ -17,3 +17,10 @@ updatedAt: `2015-06-08T22:20:07Z`
 the contents of your snippet
 ```
 
+**Call the script**
+
+`php export.php <your json gistbox backup file> <your export path>`  
+
+Example:  
+  
+`php export.php /tmp/gistbox_snippets.json /tmp/`
